@@ -56,6 +56,12 @@
         // URLを追加
         [composeViewController addURL:[NSURL URLWithString:kShareUrl]];
         
+        // SLServiceTypeTwitterかつcompletionHandlerを設定した場合、明示的にdismissViewControllerAnimated:completion:すること
+//        composeViewController.completionHandler = ^(SLComposeViewControllerResult result) {
+//            NSLog(@"complete");
+//            [self dismissViewControllerAnimated:YES completion:nil];
+//        };
+        
         // SLComposeViewControllerを表示
         [self presentViewController:composeViewController animated:YES completion:nil];
     }
