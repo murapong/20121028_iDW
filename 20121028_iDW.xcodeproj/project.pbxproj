@@ -18,6 +18,7 @@
 		55999F6F163BB8E600E9F96D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55999F6E163BB8E600E9F96D /* Default-568h@2x.png */; };
 		55999F72163BB8E600E9F96D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55999F71163BB8E600E9F96D /* ViewController.m */; };
 		55999F75163BB8E600E9F96D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55999F73163BB8E600E9F96D /* ViewController.xib */; };
+		55999F80163BBA1400E9F96D /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55999F7F163BBA1400E9F96D /* sample.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		55999F70163BB8E600E9F96D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		55999F71163BB8E600E9F96D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55999F74163BB8E600E9F96D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		55999F7F163BBA1400E9F96D /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 		55999F5F163BB8E600E9F96D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55999F7F163BBA1400E9F96D /* sample.jpg */,
 				55999F60163BB8E600E9F96D /* 20121028_iDW-Info.plist */,
 				55999F61163BB8E600E9F96D /* InfoPlist.strings */,
 				55999F64163BB8E600E9F96D /* main.m */,
@@ -163,6 +166,7 @@
 				55999F6D163BB8E600E9F96D /* Default@2x.png in Resources */,
 				55999F6F163BB8E600E9F96D /* Default-568h@2x.png in Resources */,
 				55999F75163BB8E600E9F96D /* ViewController.xib in Resources */,
+				55999F80163BBA1400E9F96D /* sample.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +296,7 @@
 				55999F7A163BB8E600E9F96D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
