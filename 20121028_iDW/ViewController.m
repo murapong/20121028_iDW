@@ -111,13 +111,13 @@
     
     // 除外するアクティビティタイプを指定
     NSArray *excludedActivityTypes = @[
-                                        UIActivityTypePostToWeibo,
-                                        UIActivityTypeMessage,
-                                        UIActivityTypeMail,
-                                        UIActivityTypePrint,
-                                        UIActivityTypeCopyToPasteboard,
-                                        UIActivityTypeAssignToContact,
-                                        UIActivityTypeSaveToCameraRoll,
+//                                        UIActivityTypePostToWeibo,
+//                                        UIActivityTypeMessage,
+//                                        UIActivityTypeMail,
+//                                        UIActivityTypePrint,
+//                                        UIActivityTypeCopyToPasteboard,
+//                                        UIActivityTypeAssignToContact,
+//                                        UIActivityTypeSaveToCameraRoll,
     ];
     activityViewController.excludedActivityTypes = excludedActivityTypes;
     
