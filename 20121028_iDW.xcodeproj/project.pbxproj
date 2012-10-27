@@ -19,6 +19,8 @@
 		55999F72163BB8E600E9F96D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55999F71163BB8E600E9F96D /* ViewController.m */; };
 		55999F75163BB8E600E9F96D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55999F73163BB8E600E9F96D /* ViewController.xib */; };
 		55999F80163BBA1400E9F96D /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55999F7F163BBA1400E9F96D /* sample.jpg */; };
+		55999F83163BBC2C00E9F96D /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55999F82163BBC2C00E9F96D /* Social.framework */; };
+		55999F85163BBC3900E9F96D /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55999F84163BBC3900E9F96D /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +41,8 @@
 		55999F71163BB8E600E9F96D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		55999F74163BB8E600E9F96D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		55999F7F163BBA1400E9F96D /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
+		55999F82163BBC2C00E9F96D /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		55999F84163BBC3900E9F96D /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55999F85163BBC3900E9F96D /* Accounts.framework in Frameworks */,
+				55999F83163BBC2C00E9F96D /* Social.framework in Frameworks */,
 				55999F59163BB8E600E9F96D /* UIKit.framework in Frameworks */,
 				55999F5B163BB8E600E9F96D /* Foundation.framework in Frameworks */,
 				55999F5D163BB8E600E9F96D /* CoreGraphics.framework in Frameworks */,
@@ -78,6 +84,8 @@
 				55999F58163BB8E600E9F96D /* UIKit.framework */,
 				55999F5A163BB8E600E9F96D /* Foundation.framework */,
 				55999F5C163BB8E600E9F96D /* CoreGraphics.framework */,
+				55999F84163BBC3900E9F96D /* Accounts.framework */,
+				55999F82163BBC2C00E9F96D /* Social.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
